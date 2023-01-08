@@ -1,0 +1,11 @@
+--- a/Source/cmServerProtocol.cxx
++++ b/Source/cmServerProtocol.cxx
+@@ -26,6 +26,7 @@
+ #include <algorithm>
+ #include <string>
+ #include <vector>
++#include <limits>
+ 
+ // Get rid of some windows macros:
+ #undef max
+
